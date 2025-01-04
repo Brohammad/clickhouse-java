@@ -26,7 +26,7 @@ Table of Contents
 
 ## About the Project
 
-This is official Java Client and JDBC for ClickHouse Database (https://github.com/ClickHouse/Clickhouse). Java Client is the core component and provides API to interact with the database. In 2023 this component and its API was refactored into a new component `client-v2`. Both version are available but older one will be deprecated soon. However it will receive security and critical bug fixes. New `client-v2` has stable API and we are working on performance and feature parity to make it a production ready.   
+This is official Java Client and JDBC for ClickHouse Database (https://github.com/ClickHouse/Clickhouse). Java Client is the main component and provides API to interact with the database. In 2023 this component and its API was refactored into a new component `client-v2`. Both version are available but older one will be deprecated soon. However it will receive security and critical bug fixes. New `client-v2` has stable API and we are working on performance and feature parity to make it a production ready.   
 JDBC driver component is an implementation of JDBC API. It uses Java Client API to interact with the database server. 
 
 **Benefits of using Client-V2:**

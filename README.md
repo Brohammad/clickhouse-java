@@ -40,7 +40,7 @@ JDBC driver component is an implementation of JDBC API. It uses Java Client API 
 - New Query API that returns a list of GenericRecords that cant be used as DTOs
 - Native format reader 
 - Performance improvements
-    - Less number of internal buffers compare to the old client
+    - Less number of internal buffers compared to the old client
     - More configuration for performance tuning
     - Less object allocation 
 - Upcoming new features
